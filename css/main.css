@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+/* 박스 flex적용 */
+.container{
+background-color: red;
+width: 1000px;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+align-items: center;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border: 1px solid#333;
+}
+.box1{
+    background-color: rebeccapurple;
+}
+.box2{
+    background-color: rgb(94, 224, 153);
+    width: 20px;
+    height: 20px;
+}
+.box3{
+    background-color: rgb(227, 230, 69);
+    width: 40px;
+    height: 40px;
+}
+.box4{
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+}
+.box5{
+    background-color: #742;
+    width: 200px;
+    height: 200px;
+}
