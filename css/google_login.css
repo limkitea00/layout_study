@@ -1,0 +1,42 @@
+/* 기본 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+/* 전체 로그인 박스 */
+.login-box {
+  width: 300px;
+  background-color: aqua;
+  padding: 20px;
+  margin: 100px auto;
+}
+/* 구글 로그인 버튼 */
+.google-btn {
+  display: flex;
+  background-color: #fff;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 구글 로고 */
+.logo {
+  width: 15%;
+  /* background-color: antiquewhite; */
+}
+.logo img{
+    width: 100%;
+    display: block;
+}
+/* 로그인 메시지 */
+.login-tet{
+    width: 80%;
+}
