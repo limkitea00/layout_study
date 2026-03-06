@@ -64,12 +64,13 @@ a {
 .checkbox {
   margin-top: 12px;
   display: flex;
-
+justify-content: center;g
   align-items: center;
   color: #8b8a9b;
 }
 .checkbox span {
   text-decoration: none;
+  font-size: 14px;
 }
 button {
   margin: 10px;
